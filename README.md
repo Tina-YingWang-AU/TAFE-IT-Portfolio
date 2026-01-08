@@ -20,7 +20,7 @@ Welcome to my professional technical portfolio. This repository documents my lea
 ## 📂 Learning Workspaces
 
 <details open>
-<summary><b>📗 01. Certificate III - Information Technology (Core Projects)</b></summary>
+<summary><b>📗 <a href="./01-Certificate-III-IT/">01. Certificate III - Information Technology (Core Projects)</a></b></summary>
 
 > *Focus: Advanced logic control, algorithmic efficiency, and professional documentation.*
 
@@ -35,7 +35,6 @@ Welcome to my professional technical portfolio. This repository documents my lea
 
 *Targeting 2026.*
 * **Planned Modules:** C#, JavaScript, SQL Databases, Object-Oriented Programming (OOP).
-* *Note: Workspace will be activated upon course commencement.*
 </details>
 
 <details>
