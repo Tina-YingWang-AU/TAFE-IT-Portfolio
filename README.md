@@ -25,7 +25,7 @@ Welcome to my professional technical portfolio. This repository documents my lea
 > *Focus: Advanced logic control, algorithmic efficiency, and professional documentation.*
 
 * 🧩 **[Logic Challenge: Quiz Engine Evolution](./01-Certificate-III-IT/01-Logic-Challenges/README.md)**: A technical comparison of three random-sampling strategies (Linear, Tracking, and Destructive).
-* 📐 **[System Blueprint: Authentication Logic](./01-Certificate-III-IT/02-Software-Design-and-Development/pseudocode_login_system.md)**: Architectural planning featuring pseudocode and flowcharts for the capstone login system.
+* 📐 **[System Blueprint: Authentication Logic](./01-Certificate-III-IT/02-Software-Design-and-Development/design_docs/pseudocode_login_system.md)**: Architectural planning featuring pseudocode and flowcharts for the capstone login system.
 * 🧮 **[Algorithm: Manual Bubble Sort](./01-Certificate-III-IT/03-Algorithm-Exploration/manual_bubble_sort.py)**: A from-scratch implementation of sorting logic, demonstrating foundational computer science concepts.
 
 </details>
