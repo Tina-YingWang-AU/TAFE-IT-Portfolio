@@ -1,35 +1,42 @@
 # 🧩 Logic Comparison: Country-Capital Quiz Engine
 
-This folder showcases two distinct programmatic approaches to solving a common algorithmic problem: **Randomly sampling a dataset without repetition.**
+This folder showcases the evolution of a quiz system through three distinct programmatic approaches. It demonstrates my ability to refactor code for better performance and enhanced user experience.
 
 ## 🎯 Project Overview
-The objective was to build an interactive quiz game that:
-1. Picks a country randomly from a list.
-2. Ensures no country is repeated within a single session.
-3. Provides robust session controls (Next Question / Play Again / Exit).
-4. Handles input sanitization (ensuring the user only enters 'y' or 'n').
+The objective was to build an interactive quiz game that manages a dataset of countries and capitals, handles user sessions, and ensures a robust experience through strict input validation.
 
 ---
 
-## 🔹 Implementation V1: Tracking via Registry
+### 🔹 Implementation V0: Linear Progression
+**File:** `country_game_v0_linear.py`
+
+* **Methodology**: **Sequential Iteration.**
+* **Technical Logic**: Uses a straightforward `for` loop to iterate through the list in its fixed, original order.
+* **Key Feature**: Introduces a **Scoring System** using formatted strings (`:.2f}%`) to provide real-time performance feedback at the end of the round.
+* **Purpose**: Serves as the MVP (Minimum Viable Product), focusing on core UI/UX and scoring before introducing algorithmic complexity.
+
+
+
+---
+
+### 🔹 Implementation V1: Tracking via Registry
 **File:** `country_game_v1_tracking.py`
 
 * **Methodology**: **In-place Index Tracking.**
-* **Technical Logic**: The program maintains the original list and creates an auxiliary list called `choiceList`. 
-* **Workflow**: Before presenting a country, it checks: `if choice not in choiceList`. If the index is already there, it re-rolls the random number.
-* **Key Advantage**: Extremely memory-efficient as it does not duplicate the dataset. It simply monitors the "indices" already used.
+* **Technical Logic**: Maintains the original list while using an auxiliary `choiceList` to log used indices. It employs a **"Check-and-Reroll"** strategy to ensure uniqueness.
+* **Key Advantage**: **Memory Efficiency.** It avoids duplicating the dataset, making it suitable for environments where memory conservation is prioritized.
+* **Evolution**: Adds non-linear gameplay by introducing the `random` module.
 
 
 
 ---
 
-## 🔹 Implementation V2: Dynamic List Manipulation (Refactored)
+### 🔹 Implementation V2: Dynamic List Manipulation
 **File:** `country_game_v2_destructive.py`
 
 * **Methodology**: **Destructive Sampling & State Restoration.**
-* **Technical Logic**: This version creates a "Working Copy" of the dataset. As each country is picked, it is **deleted** from the list using `del tempCountryCapital[choice]`.
-* **Deep Copy Usage**: Implements `copy.deepcopy()` to reset the game. This demonstrates an understanding of **Memory References** in Python—preventing the "Working Copy" from accidentally modifying the "Original Source."
-* **Key Advantage**: Faster algorithmic execution. Since used items are removed, the computer never has to "re-roll" or "check" for duplicates—it simply picks from what remains.
+* **Technical Logic**: Creates a temporary "Working Copy" of the dataset. Countries are **deleted** from the list as they are picked, inherently preventing repetitions.
+* **Key Advantage**: **Algorithmic Efficiency.** Eliminates the need for collision checks or re-rolling, ensuring a $O(1)$ selection speed. It also showcases mastery of `copy.deepcopy()` to manage memory references correctly.
 
 
 
@@ -37,10 +44,10 @@ The objective was to build an interactive quiz game that:
 
 ## 🧠 Technical Competencies Demonstrated
 
-* **Advanced State Management**: Effectively managing data across nested `while` loops and session restarts.
-* **Input Sanitization**: Multi-layered validation logic that prevents the program from crashing due to unexpected user input.
-* **Memory Optimization**: Correct application of `deepcopy` vs shallow copies for nested data structures.
-* **Loop Control**: Professional use of `break` and `continue` to manage complex, multi-level program flow.
+* **Iteration & Refactoring**: Demonstrating the journey from basic linear logic to optimized, non-linear algorithms.
+* **Input Sanitization**: Multi-layered validation logic ensuring the program is resilient to unexpected user inputs (anything other than `y/n`).
+* **Memory Management**: Correct application of `deepcopy` for nested data structures to maintain data integrity between sessions.
+* **Session Management**: Professional use of nested `while` loops, `break`, and `continue` to manage complex program states.
 
 ---
 **Course:** ICT30120 Certificate III in IT (TAFE NSW)  
