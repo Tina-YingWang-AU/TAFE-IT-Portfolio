@@ -22,20 +22,24 @@ This directory serves as a comprehensive archive of my technical work during the
 
 ---
 
-## 📗 Learning Track: Python Programming
-A collection of lab exercises focused on core software development principles:
+## 📗 Learning Track: Advanced Python Logic
+A curated collection of lab exercises demonstrating my progression from core syntax to complex algorithmic thinking:
 
-### 1. Foundations & Syntax
-* Variable management and standard I/O operations.
-* Logical operators and complex conditional branching (**If/Else**).
+### 🧩 [01. Logic Challenges: Quiz Engine Evolution](./01-Logic-Challenges/)
+* **Concepts:** Random sampling, state management, and code refactoring.
+* **Outcome:** Demonstrates three distinct architectural approaches (Linear, Tracking, and Destructive) to managing dynamic datasets. Optimized for both memory efficiency and execution speed.
 
-### 2. Iterative Logic & Automation
-* Efficient use of **For** and **While** loops to automate tasks.
-* Nested logic and control flow management.
 
-### 3. Data Management
-* Collection handling using Python **Lists** and **Dictionaries**.
-* Basic **File I/O** (Reading/Writing persistent data).
+
+### 📐 [02. Software Design & Blueprinting](./02-Software-Design-and-Development/)
+* **Focus**: The software development life cycle (SDLC) and documentation.
+* **Key Outcome**: Created comprehensive pseudocode and system flowcharts (located in `design_docs`) to plan complex authentication logic before writing a single line of code.
+
+
+
+### 🧮 [03. Algorithm Exploration: Manual Sorting](./03-Algorithm-Exploration/)
+* **Concepts:** Computational complexity, in-place swapping, and File I/O.
+* **Outcome:** A from-scratch implementation of the **Bubble Sort** algorithm. This project proves a deep understanding of how data is manipulated at a foundational level without relying on high-level built-in methods.
 
 ---
 
@@ -46,4 +50,4 @@ A collection of lab exercises focused on core software development principles:
 * **Institution:** TAFE NSW
 
 ---
-[← Back to Main Portfolio](../../)
+[← Back to Main Portfolio](../../README.md)
