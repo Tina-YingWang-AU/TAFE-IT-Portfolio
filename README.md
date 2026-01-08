@@ -19,14 +19,32 @@ Welcome to my professional technical portfolio. This repository documents my lea
 
 ## 📂 Learning Workspaces
 
-### 📗 [01. Certificate III - Information Technology](./01-Certificate-III-IT/)
-*Foundational Python scripts and logical exercises*
+<details>
+<summary><b>📗 01. Certificate III - Information Technology (Click to expand)</b></summary>
 
-### 📘 02. Certificate IV - Programming (Upcoming)
-*Future workspace for C#, JavaScript, and SQL Database projects.*
+> *Focus: Foundational Python logic, automation scripts, and basic system support.*
 
-### 📙 03. Diploma - Software Development (Planned)
-*Future workspace for Java, C++, and Enterprise-level software solutions.*
+* **Major Project:** [Gelos User Auth System](https://github.com/Tina-YingWang-AU/User-Auth-System-Python)
+* **Mini Projects:** [Marks Average Calculator](./01-Certificate-III-IT/Mini-Projects/marks-average-calculator/)
+* **Lab Exercises:**
+  * Basic Python syntax and logic
+  * Loops and Automation
+  * File Handling
+</details>
+
+<details>
+<summary><b>📘 02. Certificate IV - Programming (Upcoming)</b></summary>
+
+*Expected to start in late 2025 / 2026.*
+* **Planned Modules:** C#, JavaScript, SQL Databases, Object-Oriented Programming.
+</details>
+
+<details>
+<summary><b>📙 03. Diploma - Software Development (Planned)</b></summary>
+
+*Future workspace for advanced concepts.*
+* **Planned Modules:** Java, C++, Data Structures, and Agile Methodologies.
+</details>
 
 ---
 **Author:** [Tina Ying Wang](https://github.com/Tina-YingWang-AU)  
