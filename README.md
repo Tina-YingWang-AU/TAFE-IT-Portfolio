@@ -25,7 +25,7 @@ Welcome to my professional technical portfolio. This repository documents my lea
 > *Focus: Advanced logic control, algorithmic efficiency, and professional documentation.*
 
 * 🧩 **[01. Logic Challenges](./01-Certificate-III-IT/01-Logic-Challenges/)**: A deep dive into randomization and state management. Includes a 3-stage evolution of a Country-Capital quiz engine.
-* 📐 **[02. Software Design](./01-Certificate-III-IT/02-Software-Design-and-Development/pseudocode_login_system.md)**: Planning and architecture. Includes pseudocode and system flowcharts for complex login systems.
+* 📐 **[02. Software Design](.01-Certificate-III-IT/02-Software-Design-and-Development/design_docs/pseudocode_login_system.md)**: Planning and architecture. Includes pseudocode and system flowcharts for complex login systems.
 * 🧮 **[03. Algorithm Exploration](./01-Certificate-III-IT/03-Algorithm-Exploration/)**: Foundational computer science. Featuring a manual implementation of the **Bubble Sort** algorithm.
 
 </details>
