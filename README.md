@@ -35,6 +35,7 @@ Welcome to my professional technical portfolio. This repository documents my lea
 
 *Targeting 2026.*
 * **Planned Modules:** C#, JavaScript, SQL Databases, Object-Oriented Programming (OOP).
+* *Note: Workspace will be activated upon course commencement.*
 </details>
 
 <details>
