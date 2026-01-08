@@ -31,7 +31,7 @@ A curated collection of lab exercises demonstrating my progression from core syn
 
 
 
-### 📐 [02. Software Design & Blueprinting](./02-Software-Design-and-Development/)
+### 📐 [02. Software Design: Authentication Blueprint](./02-Software-Design-and-Development/design_docs/pseudocode_login_system.md)
 * **Focus**: The software development life cycle (SDLC) and documentation.
 * **Key Outcome**: Created comprehensive pseudocode and system flowcharts (located in `design_docs`) to plan complex authentication logic before writing a single line of code.
 
