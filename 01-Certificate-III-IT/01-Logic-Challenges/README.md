@@ -7,22 +7,18 @@ The objective was to build an interactive quiz game that manages a dataset of co
 
 ---
 
-### 🔹 Implementation V0: Linear Progression
-**File:** `country_game_v0_linear.py`
+### 🔹 [Implementation V0: Linear Progression](./country_game_v0_linear.py)
+**Core Strategy:** Sequential Iteration.
 
-* **Methodology**: **Sequential Iteration.**
 * **Technical Logic**: Uses a straightforward `for` loop to iterate through the list in its fixed, original order.
-* **Key Feature**: Introduces a **Scoring System** using formatted strings (`:.2f}%`) to provide real-time performance feedback at the end of the round.
+* **Key Feature**: Introduces a **Scoring System** using formatted strings (`:.2f}%`) to provide real-time performance feedback.
 * **Purpose**: Serves as the MVP (Minimum Viable Product), focusing on core UI/UX and scoring before introducing algorithmic complexity.
-
-
 
 ---
 
-### 🔹 Implementation V1: Tracking via Registry
-**File:** `country_game_v1_tracking.py`
+### 🔹 [Implementation V1: Tracking via Registry](./country_game_v1_tracking.py)
+**Core Strategy:** In-place Index Tracking.
 
-* **Methodology**: **In-place Index Tracking.**
 * **Technical Logic**: Maintains the original list while using an auxiliary `choiceList` to log used indices. It employs a **"Check-and-Reroll"** strategy to ensure uniqueness.
 * **Key Advantage**: **Memory Efficiency.** It avoids duplicating the dataset, making it suitable for environments where memory conservation is prioritized.
 * **Evolution**: Adds non-linear gameplay by introducing the `random` module.
@@ -31,10 +27,9 @@ The objective was to build an interactive quiz game that manages a dataset of co
 
 ---
 
-### 🔹 Implementation V2: Dynamic List Manipulation
-**File:** `country_game_v2_destructive.py`
+### 🔹 [Implementation V2: Dynamic List Manipulation](./country_game_v2_destructive.py)
+**Core Strategy:** Destructive Sampling & State Restoration.
 
-* **Methodology**: **Destructive Sampling & State Restoration.**
 * **Technical Logic**: Creates a temporary "Working Copy" of the dataset. Countries are **deleted** from the list as they are picked, inherently preventing repetitions.
 * **Key Advantage**: **Algorithmic Efficiency.** Eliminates the need for collision checks or re-rolling, ensuring a $O(1)$ selection speed. It also showcases mastery of `copy.deepcopy()` to manage memory references correctly.
 
@@ -45,8 +40,8 @@ The objective was to build an interactive quiz game that manages a dataset of co
 ## 🧠 Technical Competencies Demonstrated
 
 * **Iteration & Refactoring**: Demonstrating the journey from basic linear logic to optimized, non-linear algorithms.
-* **Input Sanitization**: Multi-layered validation logic ensuring the program is resilient to unexpected user inputs (anything other than `y/n`).
-* **Memory Management**: Correct application of `deepcopy` for nested data structures to maintain data integrity between sessions.
+* **Input Sanitization**: Multi-layered validation logic ensuring the program is resilient to unexpected user inputs.
+* **Memory Management**: Correct application of `deepcopy` for nested data structures.
 * **Session Management**: Professional use of nested `while` loops, `break`, and `continue` to manage complex program states.
 
 ---
