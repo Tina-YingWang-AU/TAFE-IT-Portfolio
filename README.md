@@ -1,49 +1,47 @@
-# TAFE NSW: IT & Software Development Portfolio
+# 🚀 TAFE NSW: IT & Software Development Portfolio
 
-Welcome to my professional technical portfolio. This repository documents my learning journey and projects at **TAFE NSW**, covering skills from foundational IT support to advanced programming.
+Welcome to my professional technical portfolio. This repository documents my learning journey at **TAFE NSW**, moving from foundational IT logic to advanced algorithm design and software architecture.
 
 ---
 
 ## 📍 My Academic Roadmap
-- [x] **ICT30120 Certificate III in Information Technology** (In Progress / Completed)
-- [ ] **ICT40120 Certificate IV in Information Technology (Programming)** (Upcoming)
+- [x] **ICT30120 Certificate III in Information Technology** (Completed 2025)
+- [ ] **ICT40120 Certificate IV in Information Technology (Programming)** (Upcoming 2026)
 - [ ] **ICT50220 Diploma of Information Technology (Advanced Programming)** (Planned)
 
 ---
 
-## 🏆 Featured Project (Capstone)
+## 🏆 Featured Capstone Project
 ### [Gelos Enterprises: User Authentication & Security System](https://github.com/Tina-YingWang-AU/User-Auth-System-Python)
-*This is my major project for Certificate III. It demonstrates my ability to build a secure, modular Python application featuring data validation and persistent storage.*
+*My primary achievement for Certificate III. This modular Python application features robust data validation, secure file I/O, and account lockout logic.*
 
 ---
 
 ## 📂 Learning Workspaces
 
-<details>
-<summary><b>📗 01. Certificate III - Information Technology (Click to expand)</b></summary>
+<details open>
+<summary><b>📗 01. Certificate III - Information Technology (Core Projects)</b></summary>
 
-> *Focus: Foundational Python logic, automation scripts, and basic system support.*
+> *Focus: Advanced logic control, algorithmic efficiency, and professional documentation.*
 
-* **Major Project:** [Gelos User Auth System](https://github.com/Tina-YingWang-AU/User-Auth-System-Python)
-* **Mini Projects:** [Marks Average Calculator](./01-Certificate-III-IT/Mini-Projects/marks-average-calculator/)
-* **Lab Exercises:**
-  * Basic Python syntax and logic
-  * Loops and Automation
-  * File Handling
+* 🧩 **[01. Logic Challenges](./01-Certificate-III-IT/01-Logic-Challenges/)**: A deep dive into randomization and state management. Includes a 3-stage evolution of a Country-Capital quiz engine.
+* 📐 **[02. Software Design](./01-Certificate-III-IT/02-Software-Design-and-Development/)**: Planning and architecture. Includes pseudocode and system flowcharts for complex login systems.
+* 🧮 **[03. Algorithm Exploration](./01-Certificate-III-IT/03-Algorithm-Exploration/)**: Foundational computer science. Featuring a manual implementation of the **Bubble Sort** algorithm.
+
 </details>
 
 <details>
 <summary><b>📘 02. Certificate IV - Programming (Upcoming)</b></summary>
 
-*Expected to start in late 2025 / 2026.*
-* **Planned Modules:** C#, JavaScript, SQL Databases, Object-Oriented Programming.
+*Targeting 2026.*
+* **Planned Modules:** C#, JavaScript, SQL Databases, Object-Oriented Programming (OOP).
 </details>
 
 <details>
 <summary><b>📙 03. Diploma - Software Development (Planned)</b></summary>
 
 *Future workspace for advanced concepts.*
-* **Planned Modules:** Java, C++, Data Structures, and Agile Methodologies.
+* **Planned Modules:** Java, Data Structures, and Agile Software Development Methodologies.
 </details>
 
 ---
