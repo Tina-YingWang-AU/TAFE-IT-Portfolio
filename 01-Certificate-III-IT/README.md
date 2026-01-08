@@ -4,24 +4,33 @@ This directory serves as a comprehensive archive of my technical work during the
 
 ---
 
-## 🚀 Featured Mini-Projects
-*Structured assignments that solve specific business or logic problems.*
+## 🏆 Capstone Project (Featured)
+*This is the major project for this qualification, showcasing advanced integration of Python skills.*
+
+* **[Gelos Enterprises: User Authentication System](https://github.com/Tina-YingWang-AU/User-Auth-System-Python)**
+    * *Core Focus:* Security-conscious identity management, data persistence, and modular coding.
+    * *Key Skill:* Implementation of complex business logic and robust data validation.
+
+---
+
+## 🚀 Mini-Projects
+*Structured assignments that solve specific functional requirements.*
 
 * **[Marks Average Calculator](./Mini-Projects/marks-average-calculator/)**
-    * *Core Focus:* Data validation, user input handling, and mathematical logic in Python.
-    * *Key Feature:* Robust error handling for invalid user inputs (out-of-range/non-integers).
+    * *Core Focus:* User input validation and mathematical logic.
+    * *Key Feature:* Handles out-of-range and non-integer inputs to prevent program crashes.
 
 ---
 
 ## 📗 Learning Track: Python Programming
-This section contains lab exercises and practice scripts focused on core software development principles:
+A collection of lab exercises focused on core software development principles:
 
 ### 1. Foundations & Syntax
-* Variable management and standard Input/Output operations.
+* Variable management and standard I/O operations.
 * Logical operators and complex conditional branching (**If/Else**).
 
 ### 2. Iterative Logic & Automation
-* Efficient use of **For** and **While** loops to automate repetitive tasks.
+* Efficient use of **For** and **While** loops to automate tasks.
 * Nested logic and control flow management.
 
 ### 3. Data Management
@@ -33,7 +42,7 @@ This section contains lab exercises and practice scripts focused on core softwar
 ## 🛠️ Tools & Environment
 * **Language:** Python 3.x
 * **IDE:** PyCharm (JetBrains)
-* **Standard:** PEP 8 Compliance (Python Coding Style)
+* **Standard:** PEP 8 Compliance
 * **Institution:** TAFE NSW
 
 ---
