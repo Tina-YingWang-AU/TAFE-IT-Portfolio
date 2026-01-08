@@ -1,12 +1,40 @@
-# Certificate III in Information Technology - Lab Work
+# Certificate III in Information Technology - Technical Lab
 
-This directory contains practical exercises and lab tasks completed as part of the **ICT30120** qualification.
-
-### Learning Areas:
-* **Python Foundations:** Core syntax, variables, and data types.
-* **Control Structures:** Logical operators and conditional branching (If/Else).
-* **Iterative Logic:** Automation using `For` and `While` loops.
-* **Data Storage:** Basic File I/O and working with Python Lists/Dictionaries.
+This directory serves as a comprehensive archive of my technical work during the **ICT30120** qualification at TAFE NSW. It documents my progression from basic logic to structured Python programming.
 
 ---
-*TAFE NSW | ICT30120 Certificate III in Information Technology*
+
+## 🚀 Featured Mini-Projects
+*Structured assignments that solve specific business or logic problems.*
+
+* **[Marks Average Calculator](./Mini-Projects/marks-average-calculator/)**
+    * *Core Focus:* Data validation, user input handling, and mathematical logic in Python.
+    * *Key Feature:* Robust error handling for invalid user inputs (out-of-range/non-integers).
+
+---
+
+## 📗 Learning Track: Python Programming
+This section contains lab exercises and practice scripts focused on core software development principles:
+
+### 1. Foundations & Syntax
+* Variable management and standard Input/Output operations.
+* Logical operators and complex conditional branching (**If/Else**).
+
+### 2. Iterative Logic & Automation
+* Efficient use of **For** and **While** loops to automate repetitive tasks.
+* Nested logic and control flow management.
+
+### 3. Data Management
+* Collection handling using Python **Lists** and **Dictionaries**.
+* Basic **File I/O** (Reading/Writing persistent data).
+
+---
+
+## 🛠️ Tools & Environment
+* **Language:** Python 3.x
+* **IDE:** PyCharm (JetBrains)
+* **Standard:** PEP 8 Compliance (Python Coding Style)
+* **Institution:** TAFE NSW
+
+---
+[← Back to Main Portfolio](../../)
