@@ -46,7 +46,7 @@ A professional-grade identity management solution designed for business framewor
 </details>
 
 <details open>
-<summary><b>📘 02. Certificate IV - Programming (Current 2026)</b></summary>
+<summary><b>📘 <a href="./02-Certificate-IV-IT-Programming/">02. Certificate IV in Information Technology (Programming) - (Current 2026)</a></b></summary>
 
 > *Focus: Enterprise-level development, Object-Oriented Programming (OOP) foundations, and Advanced Logic.*
 
@@ -57,7 +57,7 @@ A professional-grade identity management solution designed for business framewor
 #### 🧪 Technical Explorations (C#)
 * 🧩 **Defensive Programming**: Advanced input sanitization using `int.TryParse` and string normalization.
 * 🧮 **Data Structures**: Practical implementation of Key-Value pairs (Dictionaries) for optimized system performance.
-* 📅 **(Upcoming)**: SQL Database Design, OOP Architecture.
+* 📅 **(Upcoming)**: JavaScript Integration, SQL Database Design, and OOP Architecture.
 
 </details>
 
