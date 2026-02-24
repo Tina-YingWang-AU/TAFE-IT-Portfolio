@@ -30,7 +30,7 @@ A professional-grade identity management solution designed for business framewor
 ## 📂 Learning Workspaces
 
 <details>
-<summary><b>📗 <a href="./01-Certificate-III-IT/">01. Certificate III - Information Technology (Core Projects)</a></b></summary>
+<summary><b>📗 <a href="./01-Certificate-III-IT/">01. Certificate III - Information Technology</a></b></summary>
 
 > *Focus: Advanced logic control, algorithmic efficiency, and professional documentation.*
 
