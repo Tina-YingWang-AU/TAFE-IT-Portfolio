@@ -57,7 +57,7 @@ A professional-grade identity management solution designed for business framewor
 #### 🧪 Technical Explorations (C#)
 * 🧩 **Defensive Programming**: Advanced input sanitization using `int.TryParse` and string normalization.
 * 🧮 **Data Structures**: Practical implementation of Key-Value pairs (Dictionaries) for optimized system performance.
-* 📅 **(Upcoming)**: JavaScript Integration, SQL Database Design, and OOP Architecture.
+* 📅 **(Upcoming)**: SQL Database Design, OOP Architecture.
 
 </details>
 
